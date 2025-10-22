@@ -1,8 +1,9 @@
 package com.lab10.api_rest_service.config;
 
-import feign.Logger;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import feign.Logger;
 
 @Configuration
 public class FeignConfig {
